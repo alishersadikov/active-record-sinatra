@@ -1,0 +1,16 @@
+<form action="/films" method="post">
+  <p>Enter a new film:</p>
+    <dl>
+      <dt><label for="film.title">Title: </label></dt>
+      <input type='text' name="film[title]"<br/>
+      <dt><label for="film.year">Year: </label></dt>
+      <input type='text' name="film[year]"><br/>
+      <dt><label for="film.box_office_sales">Box Office Sales: </label></dt>
+      <input type='integer' name="film[box_office_sales]"<br/>
+      <dt><label for="film.genre_id">Genre ID: </label></dt>
+      <input type='integer' name="film[genre_id]"><br/>
+      <dt><label for="film.director_id">Director ID: </label></dt>
+      <input type='integer' name="film[director_id]"><br/>
+    </dl>
+  <input type="submit"/>
+</form>
